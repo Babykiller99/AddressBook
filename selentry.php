@@ -197,6 +197,11 @@ DB();
 <?php echo "$display_block"; ?>
 
 </body>
+<footer>
+	<a href = "menu.html">Main</a>
+	<a href = "selentry.php">Select</a>
+	<a href ="delentry.php">Delete</a>
+</footer>
 </html>
 
 
