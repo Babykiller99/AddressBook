@@ -142,8 +142,7 @@ DB();
 						while ($email_info = mysqli_fetch_array($get_email_res)) {
 						
 						$email = stripslashes($email_info['email']);
-						$email_type = $email_info['type'];
-						$display_block .= "<li>$email ($email_type)</li>";
+						$display_block .= "<li>$email</li>";
 
 
 						}
